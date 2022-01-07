@@ -1,0 +1,14 @@
+.page {
+    background-color:#2A2C2F;
+    font-family: 'inter', Arial, sans-serif;
+    color: #FFFFFF;
+
+    border: solid green 1px;
+}
+
+div {
+    border: solid green 1px;
+}
+section {
+    border: solid green 1px;
+}

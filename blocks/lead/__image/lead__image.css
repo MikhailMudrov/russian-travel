@@ -1,0 +1,27 @@
+.lead__image {
+    padding-top: 64px;
+    max-width: 100%;
+    
+}
+
+@media (max-width: 1024px) {
+    .lead__image {
+    padding-top: 56px;
+    max-width: 94%;
+    
+}
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+    max-width: 100%;
+    
+}
+}
+
+@media (max-width: 438px) {
+    .lead__image {
+        padding-top: 40px;
+    }
+    
+}

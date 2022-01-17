@@ -1,0 +1,28 @@
+.cover {    
+    display: grid;  
+    max-width: 1184px;
+    margin: 92px 48px;   
+    grid-template-columns: minmax(300px, 1284px);
+    
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        margin: 92px 0 92px 0;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .cover {
+        margin: 90px 0 88px 0;
+    }
+    
+}
+
+@media (max-width: 560px) {
+    .cover {
+        margin: 66px 0 64px 0;
+    }
+    
+}

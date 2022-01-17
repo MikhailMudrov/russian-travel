@@ -4,13 +4,10 @@
     color: #FFFFFF;
     max-width: 1280px;
     margin: auto;
-
-    border: solid green 1px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%; 
 }
 
-div {
-    border: solid green 1px;
-}
-section {
-    border: solid green 1px;
-}

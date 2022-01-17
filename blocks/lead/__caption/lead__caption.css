@@ -16,3 +16,10 @@
         }
         
     }
+
+    @media (max-width: 436px) {
+        .lead__caption {
+            padding-left: 5%;
+        }
+        
+    }

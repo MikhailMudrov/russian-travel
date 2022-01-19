@@ -2,5 +2,11 @@
     max-width: 100%;
 }
 
+@media (max-width: 768px) {
+    .places__image {
+        justify-self: center;
+    }
+}
+
 
 

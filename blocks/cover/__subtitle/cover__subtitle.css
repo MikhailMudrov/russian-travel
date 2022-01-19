@@ -5,6 +5,11 @@
     line-height: 22px;
     text-align: center;
     margin: 32px 23vw 245px 23vw;
+    z-index: 2;
+}
+
+.cover__subtitle:hover ~ .cover__overlay {
+    opacity: 80%;
 }
 
 @media (max-width: 1280px) {
@@ -39,9 +44,7 @@
 
 @media (max-width: 320px) {
     .cover__subtitle {
-        margin: 16px 8vw 33px 8vw;
-        font-size: 14px;
-        line-height: 16px;
+        margin: 16px 8vw 33px 8vw;        
     }
     
 }

@@ -8,8 +8,11 @@
     text-decoration: none;
     margin: 0;
     z-index: 2;
+    background-image: url(../../../images/cover-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
 
-.cover__link:hover ~ .cover__overlay {
-    opacity: .2;
-}
+
